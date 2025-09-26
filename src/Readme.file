@@ -11,3 +11,28 @@ It allows you to write HTML-like code inside JavaScript
 2.Lets you mix JavaScript and HTML-like syntax in the same file.
 
 3.Prevents you from manually calling React.createElement() for every element.
+
+
+2.Answer:
+
+---> Sate
+1.Data that belongs to a component and can change over time.
+2.Owned by the component itself.
+3.it can be updated using setState or hooks like useState.
+4.For dynamic data that changes within the component.
+
+--->Props
+1.Data passed from a parent component to a child component.
+2.Owned by the parent, received by the child
+3.props are read-only.
+4.For passing static or dynamic values down the component tree.
+
+
+3.Answer:
+
+---> useState is a React Hook that allows functional components to use state.
+
+It returns two values:
+
+1.The current state value
+2.A function to update that value
