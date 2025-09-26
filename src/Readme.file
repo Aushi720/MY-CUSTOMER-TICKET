@@ -1,2 +1,13 @@
 1. Answer:
 
+---> JSX stands for JavaScript XML.
+
+It allows you to write HTML-like code inside JavaScript 
+ which React then compiles into regular JavaScript function calls (React.createElement).
+
+---> we use It
+1.Makes UI code more readable and declarative.
+
+2.Lets you mix JavaScript and HTML-like syntax in the same file.
+
+3.Prevents you from manually calling React.createElement() for every element.
