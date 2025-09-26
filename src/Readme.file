@@ -36,3 +36,16 @@ It returns two values:
 
 1.The current state value
 2.A function to update that value
+
+
+4.Answer:
+
+---> There are several ways:
+
+1.Lift state up --> Move the state to the nearest common parent and pass it as props to child components.
+Most common and simple method.
+
+2.Context API --> Use React.createContext() to share state across deeply nested components without prop drilling
+
+3.State management libraries --> Redux, Zustand, Recoil, Jotai, etc., for larger apps with complex state sharing.
+
