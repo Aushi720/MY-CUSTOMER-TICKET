@@ -49,3 +49,12 @@ Most common and simple method.
 
 3.State management libraries --> Redux, Zustand, Recoil, Jotai, etc., for larger apps with complex state sharing.
 
+
+5.Answer:
+
+In React, event handling is similar to HTML, but with some differences:
+
+1.Use camelCase instead of lowercase (onClick not onclick)
+2.Pass a function reference, not a string.
+
+Event handling → Use camelCase and function references.
