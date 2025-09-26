@@ -4,8 +4,8 @@ const Navbar = () => {
     return (
         
 
-         <nav className="px-8 py-4 flex justify-between items-center container mx-auto">
-        <h1 className="md:text-xl text-sm font-bold">PH University</h1>
+         <nav className="px-8 py-4 flex justify-between items-center   shadow-2xl">
+        <h1 className="md:text-xl text-sm font-bold">CS - Ticket System</h1>
         <div className="md:flex hidden items-center gap-6">
           <a href="#" className="text-gray-600">
             Home
