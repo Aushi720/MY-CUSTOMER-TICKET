@@ -28,6 +28,8 @@ It allows you to write HTML-like code inside JavaScript
 4.For passing static or dynamic values down the component tree.
 
 
+# State and Props → State is local and changeable, props are external and read-only
+
 3.Answer:
 
 ---> useState is a React Hook that allows functional components to use state.
@@ -37,6 +39,7 @@ It returns two values:
 1.The current state value
 2.A function to update that value
 
+# useState → Lets you add state in function components.
 
 4.Answer:
 
@@ -57,4 +60,4 @@ In React, event handling is similar to HTML, but with some differences:
 1.Use camelCase instead of lowercase (onClick not onclick)
 2.Pass a function reference, not a string.
 
-Event handling → Use camelCase and function references.
+Event handling --> Use camelCase and function references.

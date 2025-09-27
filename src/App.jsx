@@ -18,7 +18,7 @@ function App() {
 
 
 
- // Fetch tickets from public/card.json
+ // Fetch tickets from /card.json
   useEffect(() => {
     const fetchTickets = async () => {
       try {
